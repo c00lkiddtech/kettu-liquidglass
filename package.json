@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "kettu-liquid-glass",
+  "description": "Vendetta-compatible Kettu plugin that frosts Discord mobile into an iOS 26 liquid-glass look.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --experimental-strip-types test/pure.test.mjs",
+    "verify": "node --experimental-strip-types test/pure.test.mjs && node build.mjs && node scripts/verify-dist.mjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@swc/core": "^1.3.35",
+    "esbuild": "^0.16.14",
+    "rollup": "^3.9.1",
+    "rollup-plugin-esbuild": "^5.0.0"
+  }
+}
