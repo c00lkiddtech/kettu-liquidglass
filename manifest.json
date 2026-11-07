@@ -1,0 +1,15 @@
+{
+  "name": "Liquid Glass",
+  "description": "Frosts Discord mobile into an iOS 26 liquid-glass look: translucent surfaces, specular rims, pill chrome, and a wallpaper showing through.",
+  "authors": [
+    {
+      "name": "Liquid Glass",
+      "id": "0"
+    }
+  ],
+  "main": "index.js",
+  "vendetta": {
+    "icon": "ThemeDarkIcon"
+  },
+  "hash": "3ff9c719cce1469c7fcb802f91e443fadcf564d6ef392f729ccc444ad84a166b"
+}
